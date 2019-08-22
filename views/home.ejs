@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>khoa pham webRTC</title>
+	<script src="app.js"></script>
+</head>
+<body>
+	<h1>Khoa pham training</h1>
+	<video id="localStream" controls width="300"></video>
+</body>
+<script type="text/javascript">
+	navigator.mediaDevices.getUserMedia({audio:false,video:true})
+	.then(stream => {
+		 const video = document.getElementById('localStream');
+		 video.srcObject = stream;
+		 video.onloadedmetadata=function(){
+		 	video.play();
+		 };
+	})
+	.catch(err => console.log(err));
+</script>
+</html>

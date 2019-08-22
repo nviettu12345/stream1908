@@ -1,0 +1,29 @@
+{
+  "name": "stream1908",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nviettu12345/stream1908.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nviettu12345/stream1908/issues"
+  },
+  "homepage": "https://github.com/nviettu12345/stream1908#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "simple-peer": "^9.5.0",
+    "webpack": "^4.39.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
+}
